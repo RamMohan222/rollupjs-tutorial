@@ -64,6 +64,7 @@ export default {
         })
     ],
     // indicate which modules should be treated as external, these are excluded in bundle
+    // rollup-plugin-node-externals plugin can use instead of external:[] 
     external: ['lodash']
 };
 
